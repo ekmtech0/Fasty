@@ -51,7 +51,7 @@ export default function AdminShell({ children }: { children: ReactNode }) {
                     onClose={() => setSidebarOpen(false)}
                 />
 
-                <main className="flex-1 min-w-0 p-4 lg:p-6">{children}</main>
+                <main className="flex-1 min-w-0 h-full p-4 lg:p-6">{children}</main>
             </div>
         </div>
     )

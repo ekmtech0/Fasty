@@ -11,7 +11,7 @@ import Footer from "@/components/ladingpage/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen flex flex-col">
+    <main className="min-h-screen flex flex-col">
         <Header/>
         <Hero/>
         <Funcionalidades/>
