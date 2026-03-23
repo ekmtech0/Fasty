@@ -27,7 +27,7 @@ export default function Sidebar() {
       <nav className="flex flex-col gap-4 flex-1">
         
         {/* Item Ativo (Exemplo) */}
-        <Link href="#" className={`w-12 h-12 ${primaryBg} rounded-2xl flex items-center justify-center text-white shadow-md transition-all`}>
+        <Link href="chat" className={`w-12 h-12 ${primaryBg} rounded-2xl flex items-center justify-center text-white shadow-md transition-all`}>
           <MessageSquare className="w-5 h-5" />
         </Link>
 
